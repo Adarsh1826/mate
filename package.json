@@ -5,10 +5,9 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "lint": "next lint",
-    "start": "next start",
-    "postbuild": "next-sitemap",
-    "analyze": "ANALYZE=true next build"
+    "lint": "eslint",
+    "start": "next start"
+    
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
